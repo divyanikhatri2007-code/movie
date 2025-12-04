@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movie Collection Manager</title>
+  <link rel="stylesheet" href="movie.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Movie Collection Manager</h1>
+      <p>Manage your favorite movies with ease</p>
+    </header>
+     <section class="add-section">
+      <h2>Add New Movie</h2>
+      <form id="add-movie-form">
+        <div class="form-group">
+          <input type="text" id="title" placeholder="Movie Title" required />
+          <input type="text" id="genre" placeholder="Genre (e.g. Action, Drama)" />
+          <input type="number" id="year" placeholder="Release Year" min="1900" max="2025" required />
+          <button type="submit">Add Movie</button>
+        </div>
+      </form>
+    </section>
+    <section class="search-section">
+      <input type="text" id="search-input" placeholder="Search by title or genre..." />
+    </section>
+    <section class="movie-list" id="movie-list">
+    </section>
+  </div>
+
+  <script src="movie.js"></script>
+</body>
+</html>

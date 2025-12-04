@@ -1,0 +1,22 @@
+{
+  "movies": [
+    {
+      "title": "hello",
+      "genre": "emotional",
+      "year": "2001",
+      "id": "e2e9"
+    },
+    {
+      "title": "divyani khatri",
+      "genre": "Biography",
+      "year": "2023",
+      "id": "671d"
+    },
+    {
+      "id": "71f0",
+      "title": "heero",
+      "genre": "asflks",
+      "year": "2012"
+    }
+  ]
+}
